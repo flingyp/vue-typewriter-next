@@ -1,0 +1,75 @@
+{
+  "name": "vue-typewriter-next",
+  "version": "0.0.0",
+  "description": "Vue Component Starter",
+  "main": "./dist/vue-typewriter-next.umd.js",
+  "module": "./dist/vue-typewriter-next.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "pnpm run --filter=example dev",
+    "build": "pnpm run --filter=core build",
+    "lint": "prettier \"{core,example}/**/*.{js,jsx,ts,tsx,vue}\" --write  && eslint \"{core,example}/**/*.{js,jsx,ts,tsx,vue}\" --fix",
+    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -n ./changelog.options.js && git add CHANGELOG.md",
+    "prepare": "husky install",
+    "commit": "git-cz",
+    "release": "release-it"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "Vue3",
+    "Component",
+    "Starter"
+  ],
+  "author": "flingyp",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "commitizen": "^4.2.6",
+    "compare-func": "^2.0.0",
+    "conventional-changelog": "^3.1.25",
+    "conventional-changelog-cli": "^2.2.2",
+    "conventional-changelog-custom-config": "^0.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.8.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "release-it": "^15.6.0",
+    "typescript": "^4.9.4",
+    "vue-eslint-parser": "^9.1.0"
+  },
+  "lint-staged": {
+    "{core,example}/**/*.{js,jsx,ts,tsx,vue}": [
+      "pnpm run lint"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flingyp"
+  }
+}

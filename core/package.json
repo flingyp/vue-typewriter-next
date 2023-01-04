@@ -1,0 +1,25 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "Vue Component Starter Core",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "Vue3",
+    "Component",
+    "Starter"
+  ],
+  "author": "flingyp",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.57.1",
+    "vite": "^4.0.4",
+    "vite-plugin-dts": "^1.7.1"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  }
+}
