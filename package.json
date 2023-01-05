@@ -1,6 +1,6 @@
 {
   "name": "vue-typewriter-next",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Typewriter of Vue3 Component",
   "main": "./dist/vue-typewriter-next.umd.js",
   "module": "./dist/vue-typewriter-next.mjs",
