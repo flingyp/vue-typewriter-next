@@ -1,7 +1,7 @@
 {
   "name": "vue-typewriter-next",
   "version": "0.0.0",
-  "description": "Vue Component Starter",
+  "description": "Typewriter of Vue3 Component",
   "main": "./dist/vue-typewriter-next.umd.js",
   "module": "./dist/vue-typewriter-next.mjs",
   "types": "./dist/index.d.ts",
@@ -21,9 +21,10 @@
     "LICENSE"
   ],
   "keywords": [
-    "Vue3",
-    "Component",
-    "Starter"
+    "vue3",
+    "component",
+    "vue3 component",
+    "typewriter"
   ],
   "author": "flingyp",
   "license": "MIT",
