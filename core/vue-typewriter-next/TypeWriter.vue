@@ -9,7 +9,7 @@
   import { useNameSpace } from '../hooks/useNameSpace'
 
   export default defineComponent({
-    name: 'VueTypeWriterNext',
+    name: 'VueTypewriterNext',
     props: typewriterProps,
     setup(props: TypewriterProps) {
       const { words, appendSpeed, reduceSpeed } = toRefs(props)

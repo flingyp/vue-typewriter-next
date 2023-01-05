@@ -16,6 +16,6 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 </style>

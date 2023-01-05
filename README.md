@@ -15,6 +15,7 @@
 
 ```ts
 import { VueTypewriterNext } from 'vue-typewriter-next'
+import 'vue-typewriter-next/dist/style.css'
 ```
 
 **Register the Typewriter Component to Global Component**
@@ -24,6 +25,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 import VueTypewriterNext from 'vue-typewriter-next'
+import 'vue-typewriter-next/dist/style.css'
 
 const app = createApp(App)
 app.use(VueTypewriterNext)

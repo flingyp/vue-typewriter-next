@@ -1,7 +1,7 @@
 $default-block: 'vue-typewriter-next';
-// vue-typewriter-next__typewriter
 
 .#{$default-block}__label-container {
+  user-select: none;
   font-size: 20px;
   font-family: inherit;
 }
