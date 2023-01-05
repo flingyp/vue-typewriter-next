@@ -1,5 +1,8 @@
 <template>
-  <label ref="typewriterNode" :class="[ns.be('label-container')]"></label>
+  <label ref="typewriterNode" :class="[ns.be('label-container')]">
+    <span :class="[ns.be('typewriter')]"></span>
+    <span :class="[ns.be('cursor')]"></span>
+  </label>
 </template>
 
 <script lang="ts">

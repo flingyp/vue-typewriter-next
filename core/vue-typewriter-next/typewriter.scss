@@ -7,6 +7,24 @@ $default-block: 'vue-typewriter-next';
 }
 
 .#{$default-block}__typewriter {
-  padding-right: 2px;
-  border-right: 0.08em solid #a1a1a1;
+}
+
+.#{$default-block}__cursor {
+  padding-right: 4px;
+  border-right: 0.1em solid #a1a1a1;
+  animation: twinkle 0.8s linear infinite;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

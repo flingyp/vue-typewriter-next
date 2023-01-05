@@ -63,7 +63,7 @@ export class PrintTypeWriter {
       //   console.log('添加文字->', this.showTxt)
     }
 
-    this.el.innerHTML = `<span class="${ns.be('typewriter')}">${this.showTxt}</span>`
+    this.el.querySelector(`span.${ns.be('typewriter')}`)!.innerHTML = `${this.showTxt}`
 
     setTimeout(() => printTick.call(this), this.spped)
   }
