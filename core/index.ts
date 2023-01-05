@@ -1,9 +1,9 @@
 import { App } from 'vue'
-import YButton from './button/YButton.vue'
+import VueTypewriterNext from './vue-typewriter-next/TypeWriter.vue'
 
-export { YButton }
+export { VueTypewriterNext }
 export default {
   install(app: App) {
-    app.component(YButton.name, YButton)
+    app.component(VueTypewriterNext.name, VueTypewriterNext)
   }
 }

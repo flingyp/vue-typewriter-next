@@ -1,16 +1,11 @@
 <template>
   <div id="app">
-    <YButton>Default</YButton>
-    <YButton type="primary">Primary</YButton>
-    <YButton type="success">Success</YButton>
-    <YButton type="warning">Warning</YButton>
-    <YButton type="info">Info</YButton>
-    <YButton type="danger">Danger</YButton>
+    <vue-typewriter-next :words="['Vue Typewriter Next', 'Typewriter of Vue3 Component', 'I Love Coding']" />
   </div>
 </template>
 
 <script setup lang="ts">
-  import { YButton } from 'core'
+  import { VueTypewriterNext } from 'core'
 </script>
 
 <style scoped>
@@ -20,8 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .y-button {
-    margin: 4px 4px;
+    overflow: hidden;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   }
 </style>
