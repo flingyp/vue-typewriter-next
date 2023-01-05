@@ -13,6 +13,10 @@ export const typewriterProps = {
   reduceSpeed: {
     type: Number,
     default: 100
+  },
+  cursorColor: {
+    type: String,
+    default: '#dddddd'
   }
 } as const
 

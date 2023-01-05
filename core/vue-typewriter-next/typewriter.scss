@@ -11,7 +11,8 @@ $default-block: 'vue-typewriter-next';
 
 .#{$default-block}__cursor {
   padding-right: 4px;
-  border-right: 0.1em solid #a1a1a1;
+  border-right-width: 0.1em;
+  border-right-style: solid;
   animation: twinkle 0.8s linear infinite;
 }
 
