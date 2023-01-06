@@ -1,5 +1,6 @@
 <template>
   <label ref="typewriterNode" :class="[ns.be('label-container')]">
+    <span :class="[ns.be('prefix')]">{{ prefixTxt }}</span>
     <span :class="[ns.be('typewriter')]"></span>
     <span :class="[ns.be('cursor')]" :style="{ borderRightColor: cursorColor }"></span>
   </label>
@@ -15,7 +16,7 @@
     name: 'VueTypewriterNext',
     props: typewriterProps,
     setup(props: TypewriterProps) {
-      const { words, appendSpeed, reduceSpeed, cursorColor } = toRefs(props)
+      const { words, appendSpeed, reduceSpeed, cursorColor, prefixTxt } = toRefs(props)
       const typewriterNode = ref<HTMLLabelElement>()
       const ns = useNameSpace('vue-typewriter-next')
 
@@ -24,7 +25,7 @@
         new PrintTypeWriter(typewriterNode.value!, words.value, appendSpeed.value, reduceSpeed.value)
       })
 
-      return { typewriterNode, ns, cursorColor }
+      return { typewriterNode, ns, cursorColor, prefixTxt }
     }
   })
 </script>

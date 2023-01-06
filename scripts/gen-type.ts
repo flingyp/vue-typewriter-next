@@ -20,6 +20,5 @@ const appendContent = `declare module "vue" {
 }
   `
 
-// 删除文件
 unlinkSync(indexDeclarePath)
 writeFileSync(indexDeclarePath, `${declareFileContent}\n${appendContent}`, { encoding: 'utf-8' })

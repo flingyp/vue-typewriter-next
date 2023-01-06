@@ -1,9 +1,14 @@
 $default-block: 'vue-typewriter-next';
 
 .#{$default-block}__label-container {
+  display: inline-block;
   user-select: none;
   font-size: 20px;
   font-family: inherit;
+}
+
+.#{$default-block}__prefix {
+  margin-right: 6px;
 }
 
 .#{$default-block}__typewriter {

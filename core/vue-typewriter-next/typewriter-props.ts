@@ -17,6 +17,9 @@ export const typewriterProps = {
   cursorColor: {
     type: String,
     default: '#dddddd'
+  },
+  prefixTxt: {
+    type: String
   }
 } as const
 
