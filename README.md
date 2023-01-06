@@ -1,6 +1,11 @@
 <div align="center">
-    <h1>Vue Typewriter Next</h1>
-    <h3>Typewriter of Vue3 Component</h3>
+  <h2>Vue Typewriter Next</h2>
+  <h6>Typewriter of Vue3 Component</h6>
+
+<a href="https://www.npmjs.com/package/vue-typewriter-next" target="__blank"><img src="https://img.shields.io/npm/v/vue-typewriter-next" alt="NPM version"></a> 
+<a href="https://www.npmjs.com/package/vue-typewriter-next" target="__blank"><img src="https://img.shields.io/npm/l/vue-typewriter-next?style=plastic" alt="NPM version"></a> 
+<a href="https://www.npmjs.com/package/@flypeng/tool" target="__blank"><img src="https://img.shields.io/npm/dm/vue-typewriter-next" alt="NPM downloads"></a>
+
 </div>
 
 ## Installation
